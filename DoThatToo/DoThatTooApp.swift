@@ -2,7 +2,7 @@
 //  DoThatTooApp.swift
 //  DoThatToo
 //
-//  Created by Greg-Mini on 22/07/2023.
+//  Created by Greg Deveaux on 22/07/2023.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct DoThatTooApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }

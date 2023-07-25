@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct HomeView: View {
-    @State private var notes = Note.examples
+    @StateObject var viewModel = HomeViewModel()
     @State private var isAddSheetPresented: Bool = false
 
     var body: some View {
         VStack {
-            List($notes) { $note in
+            List($viewModel.notes) { $note in
                 HStack {
                     Image(systemName: note.iscompleted ? "checkmark.square.fill" : "square")
                         .imageScale(.large)
@@ -36,6 +36,7 @@ struct HomeView: View {
         }
         .sheet(isPresented: $isAddSheetPresented) {
             AddNoteView()
+                .environmentObject(viewModel)
         }
     }
 }

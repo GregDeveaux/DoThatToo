@@ -13,6 +13,7 @@
 		BCE6FAD32A6BD8DD0070984A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE6FAD22A6BD8DD0070984A /* Preview Assets.xcassets */; };
 		BCE6FADA2A6BED090070984A /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE6FAD92A6BED090070984A /* Note.swift */; };
 		BCE6FADD2A6BFB540070984A /* AddNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE6FADC2A6BFB540070984A /* AddNoteView.swift */; };
+		BCE6FAE02A6D8CFD0070984A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE6FADF2A6D8CFD0070984A /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		BCE6FAD22A6BD8DD0070984A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BCE6FAD92A6BED090070984A /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		BCE6FADC2A6BFB540070984A /* AddNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteView.swift; sourceTree = "<group>"; };
+		BCE6FADF2A6D8CFD0070984A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 				BCE6FACB2A6BD8DB0070984A /* DoThatTooApp.swift */,
 				BCE6FADB2A6BF0A90070984A /* Models */,
 				BCE6FACD2A6BD8DB0070984A /* HomeView.swift */,
-				BCE6FADE2A6BFB5D0070984A /* Components */,
+				BCE6FADF2A6D8CFD0070984A /* HomeViewModel.swift */,
+				BCE6FADC2A6BFB540070984A /* AddNoteView.swift */,
 				BCE6FACF2A6BD8DD0070984A /* Assets.xcassets */,
 				BCE6FAD12A6BD8DD0070984A /* Preview Content */,
 			);
@@ -79,14 +82,6 @@
 				BCE6FAD92A6BED090070984A /* Note.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		BCE6FADE2A6BFB5D0070984A /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				BCE6FADC2A6BFB540070984A /* AddNoteView.swift */,
-			);
-			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +157,7 @@
 				BCE6FACE2A6BD8DB0070984A /* HomeView.swift in Sources */,
 				BCE6FACC2A6BD8DB0070984A /* DoThatTooApp.swift in Sources */,
 				BCE6FADD2A6BFB540070984A /* AddNoteView.swift in Sources */,
+				BCE6FAE02A6D8CFD0070984A /* HomeViewModel.swift in Sources */,
 				BCE6FADA2A6BED090070984A /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
